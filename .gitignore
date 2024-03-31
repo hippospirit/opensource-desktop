@@ -1,8 +1,18 @@
 build/bin
 node_modules
 frontend/dist
-.DS_Store
+**/.DS_Store
 gitkeep
 environment.json
 environments.db
 frontend/package.json.md5
+
+# VisualStudio
+.vscode/
+
+# IntelliJ
+.idea/*
+!.idea/vcs.xml
+*.iml
+*.iws
+.fleet/*
